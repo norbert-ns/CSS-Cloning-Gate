@@ -35,7 +35,7 @@ header {
 
 .nav-links{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav-links a {
@@ -70,6 +70,8 @@ header {
     align-items: center;
     border-style: solid;
     border-width: thin;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 /* start of hero part */
@@ -181,12 +183,15 @@ header {
 }
 
 .explore {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  border: 2px solid #fff;
-  padding: 13px 32px;
-  display: inline-block;
+ border-style: solid;
+    border-width: thin;
+    padding: 14px 24px 14px 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+
 }
 
 .explore:hover {
@@ -233,16 +238,20 @@ header {
 }
 
 .learn-button {
-  font-family: "D-DIN-Bold", Arial, sans-serif;
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 16px 26px;
-  background: rgba(70, 70, 70, 0.75);
-  display: inline-block;
+    border-style: solid;
+    border-width: thin;
+    padding: 14px 24px 14px 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
 }
 
+.learn-button:hover{
+  background-color: white;
+  color:black
+}
 .learn-button span {
   margin-left: 14px;
 }
@@ -256,6 +265,7 @@ header {
   position: relative;
   overflow: hidden;
   color: white;
+  padding: 50px;
 }
 
 .launch-video {
@@ -305,13 +315,19 @@ header {
 }
 
 .ride-button {
-  font-family: "D-DIN-Bold", Arial, sans-serif;
-  color: white;
-  text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  padding: 22px 34px;
-  display: inline-block;
-  font-size: 16px;
+    border-style: solid;
+    border-width: thin;
+    padding: 14px 24px 14px 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.ride-button:hover{
+   background-color: white;
+    color: black;
 }
 
 .ride-button span {
@@ -362,19 +378,21 @@ header {
 }
 
 .mission-button {
-    font-family: "D-DIN-Bold", Arial, sans-serif;
+   border-style: solid;
+    border-width: thin;
+    padding: 14px 24px 14px 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
     color: white;
+    border-radius: 7px;
     text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.65);
-    padding: 17px 28px;
-    display: inline-block;
-    font-size: 13px;
 }
 
-.mission-button span {
-    margin-left: 18px;
-    font-size: 22px;
+.mission-button:hover{
+  color: black;
+  background-color: white;
 }
+
 
 
 
@@ -387,6 +405,7 @@ header {
     overflow: hidden;
     color: white;
     background: black;
+    padding-bottom: 50px;
 }
 
 .internet-video {
@@ -436,6 +455,12 @@ header {
     padding: 15px 28px;
     font-size: 12px;
     display: inline-block;
+
+}
+
+.order-button:hover{
+   background-color: white;
+    color: black;
 }
 
 .order-button span {
@@ -449,7 +474,6 @@ header {
 /* Footer part */
 
 .footer {
-    height: 130px;
     background: black;
     color: white;
 
@@ -477,7 +501,7 @@ header {
 
 .footer-links {
     display: flex;
-    gap: 55px;
+    gap: 45px;
 }
 
 .footer-links a, .footer-copy {
